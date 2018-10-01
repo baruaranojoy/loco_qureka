@@ -1,0 +1,17 @@
+need python, tensorflow , flask , keras and numpy installed in the system
+
+instruction to run
+-------------------------------
+1) download the .zip
+2) unzip it (unzip *.zip)
+3) navigate inside the folder
+4) execute "python interface.py" (server should start successfully)
+5) open "http://127.0.0.1:2018/prediction" 
+6) give the sequence in the text box
+
+note
+--------
+1) sequence must be "," separated and no space should be used 
+    e.g. A,B,C,A,C -> valid sequence
+         A, B, C,A, C -> invalid
+2) sequence is not case sensetive
